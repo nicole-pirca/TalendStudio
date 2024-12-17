@@ -11,13 +11,55 @@
     <analysedElements xsi:type="TalendMetadata:DatabaseConnection" href="../../../metadata/connections/Cnx_Single_0.1.item#__MUjQLZ9Ee-fWeAW5qF96A"/>
   </context>
   <results xmi:id="_Ayv5x7y5Ee-kAtOAa_l1Bw">
-    <resultMetadata xmi:id="_Ayv5yLy5Ee-kAtOAa_l1Bw"/>
-    <indicators xsi:type="dataquality.indicators.schema:ConnectionIndicator" xmi:id="_Ayv5yby5Ee-kAtOAa_l1Bw">
+    <resultMetadata xmi:id="_Ayv5yLy5Ee-kAtOAa_l1Bw" executionDate="2024-12-17T15:54:07.050-0500" executionDuration="6067" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+    <indicators xsi:type="dataquality.indicators.schema:ConnectionIndicator" xmi:id="_Ayv5yby5Ee-kAtOAa_l1Bw" computed="true" tableCount="14" tableRowCount="589603333" catalogCount="1">
       <analyzedElement xsi:type="TalendMetadata:DatabaseConnection" href="../../../metadata/connections/Cnx_Single_0.1.item#__MUjQLZ9Ee-fWeAW5qF96A"/>
       <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Connection_Overview_0.1.definition#_nZEo8MYSEd27NP4lvE0A4w"/>
-      <catalogIndicators xmi:id="_Ayv5yry5Ee-kAtOAa_l1Bw">
+      <catalogIndicators xmi:id="_EiQRYLy5Ee-kAtOAa_l1Bw" tableCount="14" tableRowCount="589603333">
         <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../../metadata/connections/Cnx_Single_0.1.item#__v5KYLZ9Ee-fWeAW5qF96A"/>
         <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+        <tableIndicators xmi:id="_EiQRYby5Ee-kAtOAa_l1Bw" rowCount="770" tableName="Clientes">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_EiQRYry5Ee-kAtOAa_l1Bw" rowCount="1467" tableName="ClientesOpt">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_EiQRY7y5Ee-kAtOAa_l1Bw" rowCount="4718" tableName="DataPrices">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_EiQRZLy5Ee-kAtOAa_l1Bw" rowCount="395" tableName="DataUsers">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_EiQRZby5Ee-kAtOAa_l1Bw" rowCount="51" tableName="Estados">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_EiQRZry5Ee-kAtOAa_l1Bw" rowCount="12" tableName="calificacion">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_EiQRZ7y5Ee-kAtOAa_l1Bw" rowCount="5692720" tableName="cartera_operaciones_juridicos">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_EiQRaLy5Ee-kAtOAa_l1Bw" rowCount="363223854" tableName="cartera_operaciones_naturales">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_EiQRaby5Ee-kAtOAa_l1Bw" rowCount="1912584" tableName="cartera_tarjetas_juridicos">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_EiQRary5Ee-kAtOAa_l1Bw" rowCount="218766495" tableName="cartera_tarjetas_naturales">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_EiQRa7y5Ee-kAtOAa_l1Bw" rowCount="217" tableName="entidades">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_EiQRbLy5Ee-kAtOAa_l1Bw" rowCount="3" tableName="genero_aval">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_EiQRbby5Ee-kAtOAa_l1Bw" rowCount="8" tableName="rangos_edad">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <tableIndicators xmi:id="_EiQRbry5Ee-kAtOAa_l1Bw" rowCount="39" tableName="segmentos_subsegmentos">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
       </catalogIndicators>
     </indicators>
   </results>
