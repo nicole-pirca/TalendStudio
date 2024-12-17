@@ -38,6 +38,10 @@
     "id" : "_0UXYkBtgEe6095fGnQKJhQ - CUSTOMER4PREP",
     "version" : "Latest",
     "type" : "schema"
+  }, {
+    "id" : "_cbMGoLZ9Ee-fWeAW5qF96A - ClientesOpt",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
