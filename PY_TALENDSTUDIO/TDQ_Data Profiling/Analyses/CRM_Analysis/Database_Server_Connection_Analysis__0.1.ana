@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.schema="http://dataquality.indicators.schema" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:id="_Ayv5wLy5Ee-kAtOAa_l1Bw" name="Database_Server_Connection_Analysis " creationDate="2024-12-17T15:53:46.883-0500">
+  <clientDependency href="../../../metadata/connections/Cnx_Single_0.1.item#_AyhQQLy5Ee-kAtOAa_l1Bw"/>
+  <taggedValue xmi:id="_Ayv5wby5Ee-kAtOAa_l1Bw" tag="Status" value="development"/>
+  <taggedValue xmi:id="_Ayv5wry5Ee-kAtOAa_l1Bw" tag="Author" value="npirca@prediqt_nfr"/>
+  <taggedValue xmi:id="_Ayv5w7y5Ee-kAtOAa_l1Bw" tag="Purpose" value="Descripción general de una estructura de base de datos"/>
+  <taggedValue xmi:id="_Ayv5xLy5Ee-kAtOAa_l1Bw" tag="Description" value="Análisis estructural preliminar de la base de datos que contiene la tabla crm"/>
+  <taggedValue xmi:id="_Ayv5xby5Ee-kAtOAa_l1Bw" tag="Version" value="0.1"/>
+  <context xmi:id="_Ayv5xry5Ee-kAtOAa_l1Bw">
+    <connection href="../../../metadata/connections/Cnx_Single_0.1.item#__MUjQLZ9Ee-fWeAW5qF96A"/>
+    <analysedElements xsi:type="TalendMetadata:DatabaseConnection" href="../../../metadata/connections/Cnx_Single_0.1.item#__MUjQLZ9Ee-fWeAW5qF96A"/>
+  </context>
+  <results xmi:id="_Ayv5x7y5Ee-kAtOAa_l1Bw">
+    <resultMetadata xmi:id="_Ayv5yLy5Ee-kAtOAa_l1Bw"/>
+    <indicators xsi:type="dataquality.indicators.schema:ConnectionIndicator" xmi:id="_Ayv5yby5Ee-kAtOAa_l1Bw">
+      <analyzedElement xsi:type="TalendMetadata:DatabaseConnection" href="../../../metadata/connections/Cnx_Single_0.1.item#__MUjQLZ9Ee-fWeAW5qF96A"/>
+      <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Connection_Overview_0.1.definition#_nZEo8MYSEd27NP4lvE0A4w"/>
+      <catalogIndicators xmi:id="_Ayv5yry5Ee-kAtOAa_l1Bw">
+        <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../../metadata/connections/Cnx_Single_0.1.item#__v5KYLZ9Ee-fWeAW5qF96A"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+      </catalogIndicators>
+    </indicators>
+  </results>
+  <parameters xmi:id="_Ayv5y7y5Ee-kAtOAa_l1Bw" analysisType="Connection Analysis"/>
+</dataquality.analysis:Analysis>
