@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_7nBmULy5Ee-kAtOAa_l1Bw" name="Email_Column_Analysis" creationDate="2024-12-17T16:00:22.637-0500">
+  <taggedValue xmi:id="_7nBmUby5Ee-kAtOAa_l1Bw" tag="Status" value="development"/>
+  <taggedValue xmi:id="_7nBmUry5Ee-kAtOAa_l1Bw" tag="Author" value="npirca@prediqt_nfr"/>
+  <taggedValue xmi:id="_7nBmU7y5Ee-kAtOAa_l1Bw" tag="Purpose"/>
+  <taggedValue xmi:id="_7nBmVLy5Ee-kAtOAa_l1Bw" tag="Description"/>
+  <taggedValue xmi:id="_7nBmVby5Ee-kAtOAa_l1Bw" tag="Version" value="0.1"/>
+  <context xmi:id="_7nBmVry5Ee-kAtOAa_l1Bw"/>
+  <results xmi:id="_7nBmV7y5Ee-kAtOAa_l1Bw">
+    <resultMetadata xmi:id="_7nBmWLy5Ee-kAtOAa_l1Bw"/>
+  </results>
+  <parameters xmi:id="_7nBmWby5Ee-kAtOAa_l1Bw" analysisType="Multiple Column Analysis"/>
+</dataquality.analysis:Analysis>
