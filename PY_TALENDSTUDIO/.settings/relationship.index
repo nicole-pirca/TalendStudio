@@ -30,6 +30,25 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_vEDdgLyDEe-5hItWv6U9vg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_0UXYkBtgEe6095fGnQKJhQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_0UXYkBtgEe6095fGnQKJhQ - BANK_NEW_CUSTOMERS_V1",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_0UXYkBtgEe6095fGnQKJhQ - CUSTOMER4PREP",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_zewsYLigEe-5hItWv6U9vg",
     "version" : "0.1",
     "type" : "job"
