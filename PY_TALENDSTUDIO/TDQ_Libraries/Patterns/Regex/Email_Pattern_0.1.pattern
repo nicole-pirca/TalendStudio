@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.domain.pattern:Pattern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.domain.pattern="http://dataquality.domain.pattern" xmi:id="_mvjo8L1NEe-kAtOAa_l1Bw" name="Email_Pattern">
+  <taggedValue xmi:id="_mvjo8b1NEe-kAtOAa_l1Bw" tag="Status" value="development"/>
+  <taggedValue xmi:id="_mvjo8r1NEe-kAtOAa_l1Bw" tag="Author" value="npirca@prediqt_nfr"/>
+  <taggedValue xmi:id="_mvjo871NEe-kAtOAa_l1Bw" tag="Purpose" value="Valid email address"/>
+  <taggedValue xmi:id="_mvjo9L1NEe-kAtOAa_l1Bw" tag="Description" value="Regex created from Pattern Frequency analysis"/>
+  <taggedValue xmi:id="_mvjo9b1NEe-kAtOAa_l1Bw" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_mvjo9r1NEe-kAtOAa_l1Bw" tag="Validation_Status" value="true"/>
+  <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_mvjo971NEe-kAtOAa_l1Bw" expressionType="REGEXP">
+    <expression xmi:id="_mvjo-L1NEe-kAtOAa_l1Bw" body="'^[a-z][a-z][a-z][a-z][a-z][a-z][a-z][a-z]@[a-z][a-z][a-z][a-z][a-z][a-z]\.[a-z][a-z][a-z]$'" language="MySQL"/>
+  </components>
+</dataquality.domain.pattern:Pattern>
