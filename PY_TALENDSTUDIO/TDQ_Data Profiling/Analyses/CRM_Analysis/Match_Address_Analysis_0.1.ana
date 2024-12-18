@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmi:id="_CGZ-IL12Ee-kAtOAa_l1Bw" name="Match_Address_Analysis" creationDate="2024-12-18T14:26:50.188-0500">
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_CGZ-IL12Ee-kAtOAa_l1Bw" name="Match_Address_Analysis" creationDate="2024-12-18T14:26:50.188-0500" defaultContext="Default">
+  <clientDependency href="../../../metadata/connections/Cnx_Single_0.1.item#_AyhQQLy5Ee-kAtOAa_l1Bw"/>
   <taggedValue xmi:id="_CGalML12Ee-kAtOAa_l1Bw" tag="PREVIEW_ROW_NUMBER" value="10000"/>
   <taggedValue xmi:id="_CGalMb12Ee-kAtOAa_l1Bw" tag="Status" value="development"/>
   <taggedValue xmi:id="_CGalMr12Ee-kAtOAa_l1Bw" tag="Author" value="npirca@prediqt_nfr"/>
-  <taggedValue xmi:id="_CGalM712Ee-kAtOAa_l1Bw" tag="Purpose"/>
-  <taggedValue xmi:id="_CGalNL12Ee-kAtOAa_l1Bw" tag="Description"/>
+  <taggedValue xmi:id="_CGalM712Ee-kAtOAa_l1Bw" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_CGalNL12Ee-kAtOAa_l1Bw" tag="Description" value=""/>
   <taggedValue xmi:id="_CGalNb12Ee-kAtOAa_l1Bw" tag="Version" value="0.1"/>
-  <context xmi:id="_CGalNr12Ee-kAtOAa_l1Bw"/>
+  <taggedValue xmi:id="_CwdnwL12Ee-kAtOAa_l1Bw" tag="TEMP_DATA_DIR" value=""/>
+  <taggedValue xmi:id="_Cwdnwb12Ee-kAtOAa_l1Bw" tag="MAX_BUFFER_SIZE" value="200000"/>
+  <taggedValue xmi:id="_Cwe14L12Ee-kAtOAa_l1Bw" tag="STORE_ON_DISK" value="false"/>
+  <taggedValue xmi:id="_Cw33cL12Ee-kAtOAa_l1Bw" tag="DRILL_DOWN" value="true"/>
+  <taggedValue xmi:id="_C113AL12Ee-kAtOAa_l1Bw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <context xmi:id="_CGalNr12Ee-kAtOAa_l1Bw">
+    <connection href="../../../metadata/connections/Cnx_Single_0.1.item#__MUjQLZ9Ee-fWeAW5qF96A"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Cnx_Single_0.1.item#_tkbTQbyCEe-5hItWv6U9vg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Cnx_Single_0.1.item#_tkbTRbyCEe-5hItWv6U9vg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Cnx_Single_0.1.item#_tkbTSbyCEe-5hItWv6U9vg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Cnx_Single_0.1.item#_tkbTTbyCEe-5hItWv6U9vg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Cnx_Single_0.1.item#_tkbTUbyCEe-5hItWv6U9vg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Cnx_Single_0.1.item#_tkbTVbyCEe-5hItWv6U9vg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Cnx_Single_0.1.item#_tkbTWbyCEe-5hItWv6U9vg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Cnx_Single_0.1.item#_tkbTXbyCEe-5hItWv6U9vg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Cnx_Single_0.1.item#_tkbTYbyCEe-5hItWv6U9vg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Cnx_Single_0.1.item#_tkbTZbyCEe-5hItWv6U9vg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Cnx_Single_0.1.item#_tkbTabyCEe-5hItWv6U9vg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/Cnx_Single_0.1.item#_tkbTbbyCEe-5hItWv6U9vg"/>
+  </context>
   <results xmi:id="_CGalN712Ee-kAtOAa_l1Bw">
     <resultMetadata xmi:id="_CGalOL12Ee-kAtOAa_l1Bw"/>
     <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_CGbzUL12Ee-kAtOAa_l1Bw"/>
     <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_CGbzUb12Ee-kAtOAa_l1Bw">
-      <builtInMatchRuleDefinition xmi:id="_CGdBcL12Ee-kAtOAa_l1Bw"/>
+      <builtInMatchRuleDefinition xmi:id="_CGdBcL12Ee-kAtOAa_l1Bw">
+        <matchRules xmi:id="_CpfdEL12Ee-kAtOAa_l1Bw" name="Match Rule 1"/>
+      </builtInMatchRuleDefinition>
     </indicators>
   </results>
   <parameters xmi:id="_CGdogL12Ee-kAtOAa_l1Bw" analysisType="Match Analysis"/>
+  <contextType xmi:id="_C10o4L12Ee-kAtOAa_l1Bw" confirmationNeeded="false" hide="false" name="Default"/>
 </dataquality.analysis:Analysis>
