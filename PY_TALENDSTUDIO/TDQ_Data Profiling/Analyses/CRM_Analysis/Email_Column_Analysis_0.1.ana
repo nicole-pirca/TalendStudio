@@ -17,7 +17,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroTby6Ee-kAtOAa_l1Bw"/>
     </context>
     <results xmi:id="_7nBmV7y5Ee-kAtOAa_l1Bw">
-      <resultMetadata xmi:id="_7nBmWLy5Ee-kAtOAa_l1Bw" executionDate="2024-12-18T09:51:40.353-0500" executionDuration="2975" message="" executionNumber="4" lastRunOk="true" lastExecutionNumberOk="4"/>
+      <resultMetadata xmi:id="_7nBmWLy5Ee-kAtOAa_l1Bw" executionDate="2024-12-18T09:56:21.663-0500" executionDuration="2599" message="" executionNumber="5" lastRunOk="true" lastExecutionNumberOk="5" outThreshold="true"/>
       <indicators xsi:type="dataquality.indicators:PatternFreqIndicator" xmi:id="_KnEJsL1MEe-kAtOAa_l1Bw" count="770" computed="true" distinctValueCount="10" valueToFreq="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C7708000000100000000A7400007372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000000000000001574001561616161616161616140616161616161612E6161617371007E0003000000000000000C7400166161616161616161406161616161616161612E61616171007E0007740014616161616161616140616161616161612E6161617371007E0003000000000000000A7400136161616161616161614061616161612E6161617371007E0003000000000000000B7400136161616161616161406161616161612E6161617371007E0003000000000000001374001261616161616161406161616161612E6161617371007E0003000000000000000E74001261616161616161614061616161612E61616171007E0010740014616161616161616161614061616161612E61616171007E000A7400106161616161616161406161612E61616171007E000C78">
         <parameters xmi:id="_KnEJsb1MEe-kAtOAa_l1Bw"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroTby6Ee-kAtOAa_l1Bw"/>
@@ -102,7 +102,15 @@
         </builtInIndicatorDefinition>
       </indicators>
       <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_vDoFSLy7Ee-kAtOAa_l1Bw" count="770" computed="true" duplicateValueCount="85">
-        <parameters xmi:id="_vDoFSby7Ee-kAtOAa_l1Bw"/>
+        <parameters xmi:id="_vDoFSby7Ee-kAtOAa_l1Bw">
+          <indicatorValidDomain xmi:id="_OCsmQb1QEe-kAtOAa_l1Bw" name="Indicator threshold">
+            <ranges xmi:id="_OCyF0L1QEe-kAtOAa_l1Bw" name="Value Threshold">
+              <lowerValue xsi:type="dataquality.domain:TextValue" xmi:id="_OCyF0b1QEe-kAtOAa_l1Bw" value="0"/>
+              <upperValue xsi:type="dataquality.domain:TextValue" xmi:id="_OCyF0r1QEe-kAtOAa_l1Bw" value="0"/>
+            </ranges>
+          </indicatorValidDomain>
+          <textParameter xmi:id="_OCsmQL1QEe-kAtOAa_l1Bw"/>
+        </parameters>
         <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroTby6Ee-kAtOAa_l1Bw"/>
         <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_1j8-sLy7Ee-kAtOAa_l1Bw" body="SELECT COUNT(*) FROM (SELECT `Email`, COUNT(*) mycount FROM `STG_Data`.`Clientes`  m  GROUP BY `Email` HAVING mycount > 1) AS myquery" language="MySQL"/>
