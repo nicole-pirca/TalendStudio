@@ -2,6 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_ViXqkL1VEe-kAtOAa_l1Bw" name="Customeer_Table_Analysis" creationDate="2024-12-18T10:32:48.651-0500" defaultContext="Default">
     <clientDependency href="../../metadata/connections/Cnx_Single_0.1.item#_AyhQQLy5Ee-kAtOAa_l1Bw"/>
+    <clientDependency href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_kw7uML1PEe-kAtOAa_l1Bw"/>
     <taggedValue xmi:id="_ViXqkb1VEe-kAtOAa_l1Bw" tag="Status" value="development"/>
     <taggedValue xmi:id="_ViXqkr1VEe-kAtOAa_l1Bw" tag="Author" value="npirca@prediqt_nfr"/>
     <taggedValue xmi:id="_ViXqk71VEe-kAtOAa_l1Bw" tag="Purpose" value="Identify duplicates in customer tables by row or column subset"/>
@@ -20,7 +21,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTVbyCEe-5hItWv6U9vg"/>
     </context>
     <results xmi:id="_ViXql71VEe-kAtOAa_l1Bw">
-      <resultMetadata xmi:id="_ViXqmL1VEe-kAtOAa_l1Bw" executionDate="2024-12-18T10:35:48.247-0500" executionDuration="2038" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+      <resultMetadata xmi:id="_ViXqmL1VEe-kAtOAa_l1Bw" executionDate="2024-12-18T10:39:49.437-0500" executionDuration="1255" message="" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_V08BTr1VEe-kAtOAa_l1Bw" count="770" computed="true">
         <parameters xmi:id="_V08BT71VEe-kAtOAa_l1Bw"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTSbyCEe-5hItWv6U9vg"/>
@@ -266,6 +267,15 @@
           <sqlGenericExpression xmi:id="_dmnN1r1VEe-kAtOAa_l1Bw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%>  WHERE LTRIM(RTRIM(&lt;%=__COLUMN_NAMES__%>)) = '' &lt;%=__AND_WHERE_CLAUSE__%>" language="Microsoft SQL Server"/>
           <sqlGenericExpression xmi:id="_dmnN171VEe-kAtOAa_l1Bw" body="SELECT COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> WHERE (&lt;%=__COLUMN_NAMES__%> = '' or RTRIM(LTRIM(&lt;%=__COLUMN_NAMES__%>)) = '') &lt;%=__AND_WHERE_CLAUSE__%>" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
         </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RegexpMatchingIndicator" xmi:id="_UAGKEL1WEe-kAtOAa_l1Bw" name="Email Address" count="770" computed="true" validRow="true" matchingValueCount="697" notMatchingValueCount="73">
+        <parameters xmi:id="_UAGKEb1WEe-kAtOAa_l1Bw">
+          <dataValidDomain xmi:id="_UAGKEr1WEe-kAtOAa_l1Bw">
+            <patterns href="../../TDQ_Libraries/Patterns/Regex/internet/Email_Address_0.1.pattern#_rC5TcD4XEd24WPpU35gV1A"/>
+          </dataValidDomain>
+        </parameters>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTUbyCEe-5hItWv6U9vg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
       </indicators>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_V08oX71VEe-kAtOAa_l1Bw" count="770" computed="true">
         <parameters xmi:id="_V08oYL1VEe-kAtOAa_l1Bw"/>
