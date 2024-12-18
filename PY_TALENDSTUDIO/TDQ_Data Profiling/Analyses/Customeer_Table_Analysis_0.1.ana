@@ -8,9 +8,10 @@
     <taggedValue xmi:id="_ViXqlL1VEe-kAtOAa_l1Bw" tag="Description" value="Duplicates and validity ina column set."/>
     <taggedValue xmi:id="_ViXqlb1VEe-kAtOAa_l1Bw" tag="Version" value="0.1"/>
     <taggedValue xmi:id="_V03v0L1VEe-kAtOAa_l1Bw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
-    <taggedValue xmi:id="_V03v0b1VEe-kAtOAa_l1Bw" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_V03v0b1VEe-kAtOAa_l1Bw" tag="PREVIEW_ROW_NUMBER" value="999"/>
     <taggedValue xmi:id="_V03v0r1VEe-kAtOAa_l1Bw" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
-    <taggedValue xmi:id="_V1CH4L1VEe-kAtOAa_l1Bw" tag="Is Use Sample Data" value="false"/>
+    <taggedValue xmi:id="_V1CH4L1VEe-kAtOAa_l1Bw" tag="Is Use Sample Data" value="true"/>
+    <taggedValue xmi:id="_va688L1VEe-kAtOAa_l1Bw" tag="false" value="true"/>
     <context xmi:id="_ViXqlr1VEe-kAtOAa_l1Bw">
       <connection href="../../metadata/connections/Cnx_Single_0.1.item#__MUjQLZ9Ee-fWeAW5qF96A"/>
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTSbyCEe-5hItWv6U9vg"/>
@@ -19,7 +20,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTVbyCEe-5hItWv6U9vg"/>
     </context>
     <results xmi:id="_ViXql71VEe-kAtOAa_l1Bw">
-      <resultMetadata xmi:id="_ViXqmL1VEe-kAtOAa_l1Bw" executionDate="2024-12-18T10:33:42.947-0500" executionDuration="3653" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <resultMetadata xmi:id="_ViXqmL1VEe-kAtOAa_l1Bw" executionDate="2024-12-18T10:35:48.247-0500" executionDuration="2038" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_V08BTr1VEe-kAtOAa_l1Bw" count="770" computed="true">
         <parameters xmi:id="_V08BT71VEe-kAtOAa_l1Bw"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTSbyCEe-5hItWv6U9vg"/>
@@ -42,7 +43,7 @@
           <sqlGenericExpression xmi:id="_diRgY71VEe-kAtOAa_l1Bw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_V08BUr1VEe-kAtOAa_l1Bw" count="770" computed="true" distinctValueCount="275">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_V08BUr1VEe-kAtOAa_l1Bw" count="770" computed="true" distinctValueCount="290">
         <parameters xmi:id="_V08BU71VEe-kAtOAa_l1Bw"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTSbyCEe-5hItWv6U9vg"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -53,7 +54,7 @@
           <sqlGenericExpression xmi:id="_dib4c71VEe-kAtOAa_l1Bw" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_V08BVL1VEe-kAtOAa_l1Bw" count="770" computed="true" uniqueValueCount="92">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_V08BVL1VEe-kAtOAa_l1Bw" count="770" computed="true" uniqueValueCount="104">
         <parameters xmi:id="_V08BVb1VEe-kAtOAa_l1Bw"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTSbyCEe-5hItWv6U9vg"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -70,7 +71,7 @@
           <sqlGenericExpression xmi:id="_dilpeb1VEe-kAtOAa_l1Bw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_V08BVr1VEe-kAtOAa_l1Bw" count="770" computed="true" duplicateValueCount="183">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_V08BVr1VEe-kAtOAa_l1Bw" count="770" computed="true" duplicateValueCount="186">
         <parameters xmi:id="_V08BV71VEe-kAtOAa_l1Bw"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTSbyCEe-5hItWv6U9vg"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -124,7 +125,7 @@
           <sqlGenericExpression xmi:id="_dlCgg71VEe-kAtOAa_l1Bw" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_V08BX71VEe-kAtOAa_l1Bw" count="770" computed="true" distinctValueCount="323">
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_V08BX71VEe-kAtOAa_l1Bw" count="770" computed="true" distinctValueCount="328">
         <parameters xmi:id="_V08BYL1VEe-kAtOAa_l1Bw"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTTbyCEe-5hItWv6U9vg"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
@@ -135,7 +136,7 @@
           <sqlGenericExpression xmi:id="_dlMRg71VEe-kAtOAa_l1Bw" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_V08BYb1VEe-kAtOAa_l1Bw" count="770" computed="true" uniqueValueCount="97">
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_V08BYb1VEe-kAtOAa_l1Bw" count="770" computed="true" uniqueValueCount="99">
         <parameters xmi:id="_V08BYr1VEe-kAtOAa_l1Bw"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTTbyCEe-5hItWv6U9vg"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
@@ -152,7 +153,7 @@
           <sqlGenericExpression xmi:id="_dlX3ub1VEe-kAtOAa_l1Bw" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
         </builtInIndicatorDefinition>
       </indicators>
-      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_V08BY71VEe-kAtOAa_l1Bw" count="770" computed="true" duplicateValueCount="226">
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_V08BY71VEe-kAtOAa_l1Bw" count="770" computed="true" duplicateValueCount="229">
         <parameters xmi:id="_V08BZL1VEe-kAtOAa_l1Bw"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTTbyCEe-5hItWv6U9vg"/>
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
@@ -349,7 +350,7 @@
         </builtInIndicatorDefinition>
       </indicators>
     </results>
-    <parameters xmi:id="_ViXqmb1VEe-kAtOAa_l1Bw" dataFilter="_V1D9EL1VEe-kAtOAa_l1Bw" analysisType="Multiple Column Analysis"/>
+    <parameters xmi:id="_ViXqmb1VEe-kAtOAa_l1Bw" dataFilter="_V1D9EL1VEe-kAtOAa_l1Bw" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
     <contextType xmi:id="_V03IwL1VEe-kAtOAa_l1Bw" confirmationNeeded="false" hide="false" name="Default"/>
   </dataquality.analysis:Analysis>
   <dataquality.domain:Domain xmi:id="_V1D9EL1VEe-kAtOAa_l1Bw" name="Customeer_Table_Analysis">
