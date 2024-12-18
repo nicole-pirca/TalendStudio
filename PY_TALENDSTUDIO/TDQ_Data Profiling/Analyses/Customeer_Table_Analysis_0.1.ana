@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.analysis="http://dataquality.analysis" xmi:id="_ViXqkL1VEe-kAtOAa_l1Bw" name="Customeer_Table_Analysis" creationDate="2024-12-18T10:32:48.651-0500">
+  <taggedValue xmi:id="_ViXqkb1VEe-kAtOAa_l1Bw" tag="Status" value="development"/>
+  <taggedValue xmi:id="_ViXqkr1VEe-kAtOAa_l1Bw" tag="Author" value="npirca@prediqt_nfr"/>
+  <taggedValue xmi:id="_ViXqk71VEe-kAtOAa_l1Bw" tag="Purpose" value="Identify duplicates in customer tables by row or column subset"/>
+  <taggedValue xmi:id="_ViXqlL1VEe-kAtOAa_l1Bw" tag="Description" value="Duplicates and validity ina column set."/>
+  <taggedValue xmi:id="_ViXqlb1VEe-kAtOAa_l1Bw" tag="Version" value="0.1"/>
+  <context xmi:id="_ViXqlr1VEe-kAtOAa_l1Bw"/>
+  <results xmi:id="_ViXql71VEe-kAtOAa_l1Bw">
+    <resultMetadata xmi:id="_ViXqmL1VEe-kAtOAa_l1Bw"/>
+  </results>
+  <parameters xmi:id="_ViXqmb1VEe-kAtOAa_l1Bw" analysisType="Multiple Column Analysis"/>
+</dataquality.analysis:Analysis>
