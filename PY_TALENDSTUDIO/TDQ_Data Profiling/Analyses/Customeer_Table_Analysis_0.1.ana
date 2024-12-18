@@ -21,7 +21,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTVbyCEe-5hItWv6U9vg"/>
     </context>
     <results xmi:id="_ViXql71VEe-kAtOAa_l1Bw">
-      <resultMetadata xmi:id="_ViXqmL1VEe-kAtOAa_l1Bw" executionDate="2024-12-18T10:39:49.437-0500" executionDuration="1255" message="" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
+      <resultMetadata xmi:id="_ViXqmL1VEe-kAtOAa_l1Bw" executionDate="2024-12-18T10:44:19.810-0500" executionDuration="1243" message="" executionNumber="4" lastRunOk="true" lastExecutionNumberOk="4"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_V08BTr1VEe-kAtOAa_l1Bw" count="770" computed="true">
         <parameters xmi:id="_V08BT71VEe-kAtOAa_l1Bw"/>
         <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_Single_0.1.item#_tkbTSbyCEe-5hItWv6U9vg"/>
