@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmi:id="_CGZ-IL12Ee-kAtOAa_l1Bw" name="Match_Address_Analysis" creationDate="2024-12-18T14:26:50.188-0500">
+  <taggedValue xmi:id="_CGalML12Ee-kAtOAa_l1Bw" tag="PREVIEW_ROW_NUMBER" value="10000"/>
+  <taggedValue xmi:id="_CGalMb12Ee-kAtOAa_l1Bw" tag="Status" value="development"/>
+  <taggedValue xmi:id="_CGalMr12Ee-kAtOAa_l1Bw" tag="Author" value="npirca@prediqt_nfr"/>
+  <taggedValue xmi:id="_CGalM712Ee-kAtOAa_l1Bw" tag="Purpose"/>
+  <taggedValue xmi:id="_CGalNL12Ee-kAtOAa_l1Bw" tag="Description"/>
+  <taggedValue xmi:id="_CGalNb12Ee-kAtOAa_l1Bw" tag="Version" value="0.1"/>
+  <context xmi:id="_CGalNr12Ee-kAtOAa_l1Bw"/>
+  <results xmi:id="_CGalN712Ee-kAtOAa_l1Bw">
+    <resultMetadata xmi:id="_CGalOL12Ee-kAtOAa_l1Bw"/>
+    <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_CGbzUL12Ee-kAtOAa_l1Bw"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_CGbzUb12Ee-kAtOAa_l1Bw">
+      <builtInMatchRuleDefinition xmi:id="_CGdBcL12Ee-kAtOAa_l1Bw"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_CGdogL12Ee-kAtOAa_l1Bw" analysisType="Match Analysis"/>
+</dataquality.analysis:Analysis>
