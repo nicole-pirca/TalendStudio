@@ -15,6 +15,7 @@
     <context xmi:id="_7nBmVry5Ee-kAtOAa_l1Bw">
       <connection href="../../../metadata/connections/CNX_SIGLE_0.1.item#_ReVYYBthEe6095fGnQKJhQ"/>
       <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroTby6Ee-kAtOAa_l1Bw"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroVby6Ee-kAtOAa_l1Bw"/>
     </context>
     <results xmi:id="_7nBmV7y5Ee-kAtOAa_l1Bw">
       <resultMetadata xmi:id="_7nBmWLy5Ee-kAtOAa_l1Bw" executionDate="2024-12-18T09:56:21.663-0500" executionDuration="2599" message="" executionNumber="5" lastRunOk="true" lastExecutionNumberOk="5" outThreshold="true"/>
@@ -150,6 +151,46 @@
         <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroTby6Ee-kAtOAa_l1Bw"/>
         <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Pattern Matching/Regular_Expression_Matching_0.1.definition#_yb-_8Dh8Ed2XmO7pl5Yuyg"/>
         <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_luaqIL1PEe-kAtOAa_l1Bw" body="SELECT COUNT(CASE WHEN `Email` REGEXP BINARY '^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$' THEN 1 END), COUNT(*) FROM `STG_Data`.`Clientes` " language="MySQL"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_v66d4L1QEe-kAtOAa_l1Bw">
+        <parameters xmi:id="_v66d4b1QEe-kAtOAa_l1Bw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroVby6Ee-kAtOAa_l1Bw"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_v66d4r1QEe-kAtOAa_l1Bw">
+        <parameters xmi:id="_v66d471QEe-kAtOAa_l1Bw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroVby6Ee-kAtOAa_l1Bw"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_v66d5L1QEe-kAtOAa_l1Bw">
+        <parameters xmi:id="_v66d5b1QEe-kAtOAa_l1Bw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroVby6Ee-kAtOAa_l1Bw"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_v66d5r1QEe-kAtOAa_l1Bw">
+        <parameters xmi:id="_v66d571QEe-kAtOAa_l1Bw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroVby6Ee-kAtOAa_l1Bw"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_v66d6L1QEe-kAtOAa_l1Bw">
+        <parameters xmi:id="_v66d6b1QEe-kAtOAa_l1Bw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroVby6Ee-kAtOAa_l1Bw"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:BlankCountIndicator" xmi:id="_v66d6r1QEe-kAtOAa_l1Bw">
+        <parameters xmi:id="_v66d671QEe-kAtOAa_l1Bw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroVby6Ee-kAtOAa_l1Bw"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Blank_Count_0.1.definition#_ccHq0xF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:PatternFreqIndicator" xmi:id="_v66d7L1QEe-kAtOAa_l1Bw">
+        <parameters xmi:id="_v66d7b1QEe-kAtOAa_l1Bw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroVby6Ee-kAtOAa_l1Bw"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Pattern Frequency Statistics/Pattern_Frequency_Table_0.1.definition#_kQzTsJR-Ed2XO-JvLwVAwg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:PatternLowFreqIndicator" xmi:id="_v66d7r1QEe-kAtOAa_l1Bw">
+        <parameters xmi:id="_v66d771QEe-kAtOAa_l1Bw"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../../metadata/connections/CNX_SIGLE_0.1.item#_xJroVby6Ee-kAtOAa_l1Bw"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Pattern Frequency Statistics/Pattern_Low_Frequency_Table_0.1.definition#_OCTbwJR_Ed2XO-JvLwVAwg"/>
       </indicators>
     </results>
     <parameters xmi:id="_7nBmWby5Ee-kAtOAa_l1Bw" dataFilter="_vD2HsLy7Ee-kAtOAa_l1Bw" analysisType="Multiple Column Analysis"/>
