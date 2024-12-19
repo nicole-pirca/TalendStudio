@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.domain.pattern="http://dataquality.domain.pattern" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
+  <dataquality.domain.pattern:Pattern xmi:id="_ZFxtYWZwEem0SqmV0vh_Ag" name="ISO3pattern" supplierDependency="_9CP3wGacEem0SqmV0vh_Ag">
+    <taggedValue xmi:id="_ZFxtYmZwEem0SqmV0vh_Ag" tag="Status" value="development"/>
+    <taggedValue xmi:id="_ZFxtY2ZwEem0SqmV0vh_Ag" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_ZFxtZGZwEem0SqmV0vh_Ag" tag="Purpose" value="Identifies country codes of the format AAA"/>
+    <taggedValue xmi:id="_ZFxtZWZwEem0SqmV0vh_Ag" tag="Description" value="To check the validity of the country codes."/>
+    <taggedValue xmi:id="_ZFxtZmZwEem0SqmV0vh_Ag" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_ZFxtZ2ZwEem0SqmV0vh_Ag" tag="Validation_Status" value="true"/>
+    <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_ZFxtaGZwEem0SqmV0vh_Ag" expressionType="REGEXP">
+      <expression xmi:id="_ZFxtaWZwEem0SqmV0vh_Ag" body="'^[A-Z][A-Z][A-Z]$'" language="SQL"/>
+    </components>
+  </dataquality.domain.pattern:Pattern>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_9CP3wGacEem0SqmV0vh_Ag" kind="Usage" supplier="_ZFxtYWZwEem0SqmV0vh_Ag"/>
+</xmi:XMI>
