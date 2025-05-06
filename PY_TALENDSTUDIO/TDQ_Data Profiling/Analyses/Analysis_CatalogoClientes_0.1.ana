@@ -1,18 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmi:id="_QWBWMCqdEfC30f91BwnvgA" name="Analysis_CatalogoClientes" creationDate="2025-05-06T12:12:14.127-0500">
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_QWBWMCqdEfC30f91BwnvgA" name="Analysis_CatalogoClientes" creationDate="2025-05-06T12:12:14.127-0500" defaultContext="Default">
+  <clientDependency href="../../metadata/connections/Cnx_SingleStore_0.1.item#_vDoFTLy7Ee-kAtOAa_l1Bw"/>
   <taggedValue xmi:id="_QWB9QCqdEfC30f91BwnvgA" tag="PREVIEW_ROW_NUMBER" value="10000"/>
   <taggedValue xmi:id="_QWB9QSqdEfC30f91BwnvgA" tag="Status" value="development"/>
   <taggedValue xmi:id="_QWB9QiqdEfC30f91BwnvgA" tag="Author" value="npirca@prediqt.ec"/>
-  <taggedValue xmi:id="_QWB9QyqdEfC30f91BwnvgA" tag="Purpose"/>
-  <taggedValue xmi:id="_QWB9RCqdEfC30f91BwnvgA" tag="Description"/>
+  <taggedValue xmi:id="_QWB9QyqdEfC30f91BwnvgA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_QWB9RCqdEfC30f91BwnvgA" tag="Description" value=""/>
   <taggedValue xmi:id="_QWB9RSqdEfC30f91BwnvgA" tag="Version" value="0.1"/>
-  <context xmi:id="_QWB9RiqdEfC30f91BwnvgA"/>
+  <taggedValue xmi:id="_Q-C_gCqdEfC30f91BwnvgA" tag="TEMP_DATA_DIR" value=""/>
+  <taggedValue xmi:id="_Q-C_gSqdEfC30f91BwnvgA" tag="MAX_BUFFER_SIZE" value="200000"/>
+  <taggedValue xmi:id="_Q-C_giqdEfC30f91BwnvgA" tag="STORE_ON_DISK" value="false"/>
+  <taggedValue xmi:id="_Q-Pz0CqdEfC30f91BwnvgA" tag="DRILL_DOWN" value="true"/>
+  <taggedValue xmi:id="_RJs14SqdEfC30f91BwnvgA" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <context xmi:id="_QWB9RiqdEfC30f91BwnvgA">
+    <connection href="../../metadata/connections/Cnx_SingleStore_0.1.item#_ReVYYBthEe6095fGnQKJhQ"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnECqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnFCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnGCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnHCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnICqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnJCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnKCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnLCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnMCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnNCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnOCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnPCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnQCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnRCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnSCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnTCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnUCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnVCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnWCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnXCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnYCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnZCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnaCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnbCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mncCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mndCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mneCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnfCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mngCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnhCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mniCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnjCqcEfC30f91BwnvgA"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Cnx_SingleStore_0.1.item#__5mnkCqcEfC30f91BwnvgA"/>
+  </context>
   <results xmi:id="_QWB9RyqdEfC30f91BwnvgA">
     <resultMetadata xmi:id="_QWB9SCqdEfC30f91BwnvgA"/>
     <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_QWB9SSqdEfC30f91BwnvgA"/>
     <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_QWB9SiqdEfC30f91BwnvgA">
-      <builtInMatchRuleDefinition xmi:id="_QWB9SyqdEfC30f91BwnvgA"/>
+      <builtInMatchRuleDefinition xmi:id="_QWB9SyqdEfC30f91BwnvgA">
+        <matchRules xmi:id="_Q5cMUCqdEfC30f91BwnvgA" name="Match Rule 1"/>
+      </builtInMatchRuleDefinition>
     </indicators>
   </results>
   <parameters xmi:id="_QWB9TCqdEfC30f91BwnvgA" analysisType="Match Analysis"/>
+  <contextType xmi:id="_RJs14CqdEfC30f91BwnvgA" confirmationNeeded="false" hide="false" name="Default"/>
 </dataquality.analysis:Analysis>
