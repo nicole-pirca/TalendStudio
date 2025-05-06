@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmi:id="_QWBWMCqdEfC30f91BwnvgA" name="Analysis_CatalogoClientes" creationDate="2025-05-06T12:12:14.127-0500">
+  <taggedValue xmi:id="_QWB9QCqdEfC30f91BwnvgA" tag="PREVIEW_ROW_NUMBER" value="10000"/>
+  <taggedValue xmi:id="_QWB9QSqdEfC30f91BwnvgA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_QWB9QiqdEfC30f91BwnvgA" tag="Author" value="npirca@prediqt.ec"/>
+  <taggedValue xmi:id="_QWB9QyqdEfC30f91BwnvgA" tag="Purpose"/>
+  <taggedValue xmi:id="_QWB9RCqdEfC30f91BwnvgA" tag="Description"/>
+  <taggedValue xmi:id="_QWB9RSqdEfC30f91BwnvgA" tag="Version" value="0.1"/>
+  <context xmi:id="_QWB9RiqdEfC30f91BwnvgA"/>
+  <results xmi:id="_QWB9RyqdEfC30f91BwnvgA">
+    <resultMetadata xmi:id="_QWB9SCqdEfC30f91BwnvgA"/>
+    <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_QWB9SSqdEfC30f91BwnvgA"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_QWB9SiqdEfC30f91BwnvgA">
+      <builtInMatchRuleDefinition xmi:id="_QWB9SyqdEfC30f91BwnvgA"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_QWB9TCqdEfC30f91BwnvgA" analysisType="Match Analysis"/>
+</dataquality.analysis:Analysis>
