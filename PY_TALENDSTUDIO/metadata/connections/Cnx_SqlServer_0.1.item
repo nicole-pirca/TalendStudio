@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_hcRxsCqLEfC30f91BwnvgA" name="Cnx_SqlServer" id="_wJuTACqKEfC30f91BwnvgA" label="Cnx_SqlServer" dataPackage="_iBn6cCqLEfC30f91BwnvgA" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://172.191.87.57:1433;DatabaseName=POC;" dbVersionString="MSSQL_PROP" Port="1433" Username="poc" Password="enc:system.encryption.key.v1:ew4Ol2RmHEXlEMRrxPdpwl4yQZ2z48tXnQyxlyA5k4/iVsEO0Yvj" ServerName="172.191.87.57" DatasourceName="" FileFieldName="" SID="POC" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_hcSYwCqLEfC30f91BwnvgA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_hhnksCqLEfC30f91BwnvgA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_hhuSYCqLEfC30f91BwnvgA" tag="Status" value=""/>
+    <taggedValue xmi:id="_hhuSYSqLEfC30f91BwnvgA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_hhuSYiqLEfC30f91BwnvgA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_hhuSYyqLEfC30f91BwnvgA" tag="Description" value=""/>
+    <taggedValue xmi:id="_hhuSZCqLEfC30f91BwnvgA" tag="Author" value=""/>
+    <taggedValue xmi:id="_hhuSZSqLEfC30f91BwnvgA" tag="otherParameter"/>
+    <taggedValue xmi:id="_hxoWoCqLEfC30f91BwnvgA" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_hxoWoSqLEfC30f91BwnvgA" tag="DB ProductVersion" value="15.00.4430"/>
+    <taggedValue xmi:id="_hxoWoiqLEfC30f91BwnvgA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_hcSYwSqLEfC30f91BwnvgA" key="CONN_PARA_KEY_USERNAME" value="poc"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_iBn6cCqLEfC30f91BwnvgA" name="POC" dataManager="_hcRxsCqLEfC30f91BwnvgA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6cSqLEfC30f91BwnvgA" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6ciqLEfC30f91BwnvgA" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6cyqLEfC30f91BwnvgA" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6dCqLEfC30f91BwnvgA" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6dSqLEfC30f91BwnvgA" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6diqLEfC30f91BwnvgA" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6dyqLEfC30f91BwnvgA" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6eCqLEfC30f91BwnvgA" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6eSqLEfC30f91BwnvgA" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6eiqLEfC30f91BwnvgA" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6eyqLEfC30f91BwnvgA" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6fCqLEfC30f91BwnvgA" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6fSqLEfC30f91BwnvgA" name="sys"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6fiqLEfC30f91BwnvgA" name="OperacionesTarjetasTalend"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6fyqLEfC30f91BwnvgA" name="POC"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_iBn6gCqLEfC30f91BwnvgA" name="test"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
