@@ -139,6 +139,14 @@
     "id" : "_D6wmELJREe-fWeAW5qF96A",
     "version" : "Latest",
     "type" : "context"
+  }, {
+    "id" : "_Avlj4CtNEfC30f91BwnvgA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Avlj4CtNEfC30f91BwnvgA - OPERACIONESTARJETAS",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
